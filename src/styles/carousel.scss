@@ -1,0 +1,39 @@
+.carousel-container{
+    position: relative;
+    
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    .carousel-item-cont{
+        height: 400px;
+        width: 850px;
+        display: flex;
+    }
+     .carousel-item{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        height: 400px;
+        width: 250px;
+
+        p{
+            font-size: large;
+            font-weight: 500;
+        }
+     }
+     .carousel-img{
+        height: 300px;
+        width: 250px;
+     }
+     .prev{
+        position: absolute;
+        top: 40%;
+        left: 0px;
+     }
+     .next{
+        position: absolute;
+        top: 40%;
+        right: 0;
+     }
+
+}

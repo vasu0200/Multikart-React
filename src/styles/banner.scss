@@ -1,0 +1,42 @@
+.banner-Conatiner{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 50px;
+
+    .banner-item{
+        width: 350px;
+        height: 140px;
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner1.jpg");
+        padding: 1.7rem 2rem 1.8rem;
+        background-repeat: no-repeat;
+        background-color: #f6f7f9;
+        width: 100%;
+        background-position: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        border-radius: 5px;
+        // border: 1px solid black;
+    
+        .link{
+            color: rgb(45, 79, 203);
+            font-size: small;
+            font-weight: 600;
+        }
+    }
+    .under20{
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner2.jpg");
+    }
+    .under50{
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner3.jpg");
+    }
+    .under99{
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner4.jpg");
+    }
+}
+
+.banner-item:hover{
+    box-shadow: 1px 1px 10px rgb(177, 177, 177);
+    transition: .5s;
+}

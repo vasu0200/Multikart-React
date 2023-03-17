@@ -1,0 +1,97 @@
+.homeBanner-container{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    // padding: 30px;
+    width: 100%;
+    margin-top: 140px;
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 300px;
+        width: 250px;
+        p{
+            color: gray;
+            font-weight: 600;
+            font-size: medium;
+        }
+        button{
+            width: 120px;
+            height: 40px;
+            border: 2px solid rgb(48, 82, 176);
+            background-color: white;
+            font-weight: 600;
+            color: rgb(48, 82, 176);
+            
+        }
+
+    }
+
+    .flashCard,.gift-finder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-bottom: 30px;
+        background-color: rgb(216, 87, 130);
+        gap: 15px;
+        color: white;
+        width: 260px;
+        height: 380px;
+
+        h2{
+            font-size: 18px;
+            height: 20px;
+            margin-top: 10px;
+           
+        }
+        img{
+            height: 220px;
+            width: 200px;
+            padding: 10px;
+            background-color: rgb(253, 172, 185);
+        }
+        .button{
+            padding: 10px;
+            width: 200px;
+            background-color: rgb(252, 162, 177);
+            text-align: center;
+            font-weight: 500;
+            
+        }
+    }
+    .gift-finder{
+       
+        gap: 30px;
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/banner3.jpg");
+        background-size: 100%;
+
+        .Title{
+            margin-bottom: 40px;
+        }
+
+        .inputs{
+            display: flex;
+            gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            select{
+                width: 250px;
+                height: 30px;
+            }
+        }
+        .button{
+        background-color: rgb(21, 41, 107);
+
+        }
+    }
+
+}

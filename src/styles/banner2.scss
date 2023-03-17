@@ -1,0 +1,45 @@
+.banner2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .items{
+        height: 250px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 140px;
+        padding: 15px;
+        // border: 1px solid black;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: right;
+
+       
+        p{
+            color: gray;
+        }
+        button{
+            width: 120px;
+            height: 40px;
+            border: 2px solid rgb(40, 60, 119);
+            color: rgb(44, 67, 135) ;
+            font-weight: 600;
+            background-color: transparent;
+        }
+    }
+    .banner1 {
+        background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner5.jpg");
+        
+
+        }
+        .banner2{
+            background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner6.jpg");
+        }
+        .banner3{
+            background-image: url("https://d-themes.com/react/porto/demo30/images/home/banners/home-banner7.jpg") ;
+        }
+}
+
